@@ -1,0 +1,30 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Manrope:wght@200;400;600;800&display=swap');
+
+/*component*/
+@import "components/status-bar.css";
+@import "components/no-mobile.css";
+@import "components/user-component.css";
+@import "components/nav.css";
+
+/*screen*/
+@import "screens/index.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/chat.css";
+@import "screens/shopping.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+    background-color: rgb(248, 248, 248);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
