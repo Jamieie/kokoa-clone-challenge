@@ -1,0 +1,22 @@
+.chats-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+.chats-header__column h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.chats-header__column i {
+    color: rgba(0,0,0,0.9);
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.chats-screen__chats-list {
+    margin: 35px 25px;
+}

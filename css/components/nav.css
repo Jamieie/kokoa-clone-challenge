@@ -1,0 +1,52 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.nav__btn {
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+.nav__btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@keyframes notificationAnimation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.nav__notification-badge {
+    font-size: 13px;
+    color: white;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    left: 70px;
+    top: -5px;
+    animation: notificationAnimation 3s linear infinite;
+}
